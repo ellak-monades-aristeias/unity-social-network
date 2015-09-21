@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+{% block title %}{% trans "Role Definition" %}{% endblock %}
+
+{% block content %}
+<h1> Define Roles</h1>
+
+    {% block extrahead %}
+
+        <script type="text/javascript">
+            $('.role-formset').formset({
+                addText: 'add link',
+                deleteText: 'remove'
+            });
+        </script>
+
+    {% endblock %}
+
+    <form method="post">
+        {% csrf_token %}
+
+        {{ role_formset.management_form }}
+
+        {% for role_form in role_formset %}
+            <div class="role-formset">
+                {{ role_form.type }}
+                {% if role_form.type.errors %}
+                    {% for error in role_form.type.errors %}
+                        {{ error|escape }}
+                    {% endfor %}
+                {% endif %}
+
+                {{ role_form.desc }}
+                {% if role_form.desc.errors %}
+                    {% for error in role_form.desc.errors %}
+                        {{ error|escape }}
+                    {% endfor %}
+                {% endif %}
+            </div>
+        {% endfor %}
+
+        {% if role_formset.non_form_errors %}
+            {% for error in role_formset.non_form_errors %}
+                {{ error|escape }}
+            {% endfor %}
+        {% endif %}
+
+        <input type="submit" value="Insert roles" class="button"/>
+    </form>
+
+    <!-- Include formset plugin - including jQuery dependency -->
+
+
+
+{% endblock %}

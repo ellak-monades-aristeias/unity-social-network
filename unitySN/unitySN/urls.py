@@ -19,4 +19,9 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^grappelli/', include('grappelli.urls')), # grappelli URLS
+    url(r'^$', include('setup.urls')),
+    url(r'^accounts/', include('registration.backends.default.urls')),
+    url(r'^cas/login$', 'django_cas_ng.views.login', name='caslogin'),
+	url(r'^cas/logout$', 'django_cas_ng.views.logout', name='caslogout'),
+    url(r'^posts/', include('posts.urls')),
 ]

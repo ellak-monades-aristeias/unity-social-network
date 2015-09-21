@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Log in" %}{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+        <h3> Welcome user {{ user }} </h3>
+        You can see your profile <a href="/user/profile/{{user}}">here</a>
+{% else %}
+
+    <h1> Welcome to CasClient First Page</h1>
+            <p> Please choose one of the options below.</p>
+
+    <p>{% trans "Django Login?" %} <a href="/accounts/login">{% trans "Django Login" %}</a>.</p>
+    <p>{% trans "SSO Login?" %} <a href="/cas/login">{% trans "SSO Login" %}</a>.</p>
+{% endif %}
+{% endblock %}

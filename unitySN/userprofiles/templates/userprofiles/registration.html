@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Registration" %}{% endblock %}
+
+{% block content %}
+    <h1>{% trans "Registration" %}</h1>
+
+    <form action="." method="post">
+        {% csrf_token %}
+        <fieldset>
+            {% for form in registraton_formset.forms %}
+				{{ form }}
+			{% endfor %}
+			{% for form in my_formset.forms %}
+				{{ form }}
+			{% endfor %}
+        </fieldset>
+        <fieldset class="submit-row">
+            <p><button type="submit">{% trans "Create account" %}</button></p>
+        </fieldset>
+    </form>
+{% endblock %}

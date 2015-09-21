@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+
+<script type="text/javascript">
+
+function set_post_type_menu() {
+	document.getElementById("post-menu").style["height"] = "auto";
+	document.getElementById("post-menu").style["overflow"] = "hidden";
+	/*document.getElementById('post-menu').innerHTML= '<li><a href="#" onclick="document.getElementById(\'post-option\').innerHTML=\' Public \';document.getElementById(\'target\').value=\'Public\';">Δημόσια</a></li><li><a href="#" onclick="document.getElementById(\'post-option\').innerHTML=\' Friends \';document.getElementById(\'target\').value=\'Friends\';">Φίλοι</a></li><li><a href="#" onclick="document.getElementById(\'post-option\').innerHTML=\' Followers \';document.getElementById(\'target\').value=\'Followers\';">Ακόλουθοι</a></li><li><a href="#" onclick="document.getElementById(\'post-option\').innerHTML=\' User \';document.getElementById(\'target\').value=\'User\';">Χρήστης</a></li><li><a href="#" onclick="document.getElementById(\'post-option\').innerHTML=\' Me \';document.getElementById(\'target\').value=\'Me\';">Εγώ</a></li>';
+
+8*/
+
+	document.getElementById('post-menu').innerHTML= '<li><a href="#" onclick="document.getElementById(\'post-option\').innerHTML=\' Public \';document.getElementById(\'target\').value=\'Public\';">Public</a></li>';
+	document.getElementById('post-menu').innerHTML+= '<li><a href="#" onclick="document.getElementById(\'post-option\').innerHTML=\' Private \';document.getElementById(\'target\').value=\'Private\';">Private</a></li>';
+	document.getElementById('post-menu').innerHTML+= '<li><a href="#" onclick="document.getElementById(\'post-option\').innerHTML=\' User \';document.getElementById(\'target\').value=\'User\';">User</a></li>';
+
+}
+</script>
+
+{% block title %}{% trans "New Post" %}{% endblock %}
+
+{% block content %}
+    <form action="/posts/new/" method="post">
+        {% csrf_token %}
+
+
+        <textarea name="content" id = "content" class="form-control" placeholder="Fill this field..."></textarea><br/>
+        <div class="input-group-btn">
+            <input class="btn btn-primary" id="submit" type="submit" value="Post" />
+            <input type="hidden" name="target" id="target" value="Public"/>
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" onclick="set_post_type_menu()">
+             <span class="glyphicon glyphicon-eye-open"></span>
+             <span id="post-option"> Public </span></button>
+             <ul class="dropdown-menu" role="menu" id="post-menu"></ul>
+
+        <!-- <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" onclick="set_post_user_menu()"><span class="glyphicon glyphicon-user"></span></button> {#{  image_form.as_table  }}</div> -->
+
+        <input type="hidden" name="actor_name" id="actor_name" value={{ username }} />
+    </form>
+{% endblock %}
