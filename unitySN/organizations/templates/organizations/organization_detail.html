@@ -1,0 +1,26 @@
+{% extends "organizations_base.html" %}
+{% load url from future %}
+{% load org_tags %}
+{% load relationship_tags %}
+{% block title %}{{ organization.name }}{% endblock %}
+{% block content %}
+<h1>{{ organization.name }}</h1>
+<h3>{{ organization.description }}</h3>
+
+{% autoescape off %}
+{% include "organizations/wall.html" %}
+{% endautoescape %}
+
+{% if admin == True %}
+	<ul>
+		<li><a href="{% url 'organization_edit' organization.pk %}">Edit</a></li>
+	</ul>
+{% else %}
+	<ul>
+		<li><a href={{link}}> Disjoin</a></li>
+	</ul>
+	
+{% endif %}
+
+{% endblock %}
+

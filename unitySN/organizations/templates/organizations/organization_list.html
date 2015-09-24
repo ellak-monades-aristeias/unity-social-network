@@ -1,0 +1,32 @@
+{% extends "organizations_base.html" %}
+{% block content %}
+
+
+<ul>
+	<h1>Your groups</h1>
+	{% if user_organizations %}
+		{% for organization in user_organizations %}
+		<li><a href="{{ organization.get_absolute_url }}">{{ organization.name }}</a></li>
+		{% endfor %}
+	{% else %}
+		You dont belong in any group yet.
+	{% endif %}
+</ul>
+
+<ul>
+	<h1>All groups</h1>
+		{% for organization in all_organizations %}
+		<li><a href="{{ organization.get_absolute_url }}">{{ organization.name }}</a></li>
+		{% endfor %}
+
+</ul>
+
+<ul>
+	<h1>Other groups</h1>
+		{% for organization in other_organizations %}
+		<li><a href="{{ organization.get_absolute_url }}">{{ organization.name }}</a></li>
+		{% endfor %}
+
+</ul>
+<h2> <a href="/groups/add/">Create a group</a> </h2>
+{% endblock %}

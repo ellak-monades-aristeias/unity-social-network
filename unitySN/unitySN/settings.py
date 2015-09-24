@@ -46,6 +46,7 @@ INSTALLED_APPS = (
     'roles',
     'userprofiles',
     'notifications',
+    'organizations'
     #'setup',
 
 )

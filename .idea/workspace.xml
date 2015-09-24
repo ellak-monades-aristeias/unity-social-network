@@ -2,134 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37f5269f-335f-4820-93ad-5ca910e4ba11" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/bg01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/bg02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/bg03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/bg04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/comments.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/locale/de/LC_MESSAGES/django.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/doc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/img02.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/img05.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/img06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/images/spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/migrations/0002_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/migrations/0003_auto__add_field_userprofile_studies.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/migrations/0004_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/migrations/0005_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/migrations/0006_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/migrations/0007_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/migrations/0008_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/roles/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/accountverification/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/accountverification/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/emailverification/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/emailverification/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/profiles/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/profiles/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/activate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/activation_complete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/activation_email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/mails/activation_email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/activation_email.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/mails/activation_email_subject.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/activation_email_subject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/roles/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/accountverification/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/emailverification/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/auth_backends.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/posts/compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/locale/de/LC_MESSAGES/django.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/email_change.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/email_change_requested.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/mails/emailverification.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/mails/emailverification_subject.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/posts/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/roles/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/emailverification/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/profiles/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/setup/init_roles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/js/jquery-1.3.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/css/jquery.autocomplete.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/static/js/jquery.formset1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/logged_out.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/logout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/mixins.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/roles/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/accountverification/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/emailverification/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/profiles/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/new.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/opengraph.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/password_change.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/password_change_done.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/password_change_done.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/password_change_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/password_reset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/password_reset_complete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/password_reset_complete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/password_reset_confirm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/password_reset_confirm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/password_reset_done.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/password_reset_done.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/password_reset_email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/mails/password_reset_email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/password_reset_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/profile_change.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/registration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/registration_activate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/registration_base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/registration_closed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/registration_complete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/templates/userprofiles/registration_complete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/registration/registration_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/setup/roles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/unitySN/settings_secret.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/tests/test_auth_backends.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/tests/test_forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/accountverification/tests/test_models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/tests/test_settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/tests/test_utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/accountverification/tests/test_views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/emailverification/tests/test_views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/profiles/tests/test_views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/tests/test_views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/roles/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/posts/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/setup/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/accountverification/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/emailverification/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/profiles/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/roles/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/accountverification/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/emailverification/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/userprofiles/contrib/profiles/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unitySN/db.sqlite3" afterPath="$PROJECT_DIR$/unitySN/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/pip-selfcheck.json" afterPath="$PROJECT_DIR$/local/pip-selfcheck.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0002_auto__add_field_organization_image.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0003_auto__chg_field_organization_image.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0004_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0005_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0006_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0007_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/backends/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/email/activation_body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/email/activation_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/app_settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/backends/defaults.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/exceptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/backends/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/email/invitation_body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/email/invitation_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/managers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/mixins.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templatetags/org_tags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organization_confirm_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organization_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organization_detail_visitor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organization_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organization_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organization_users.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations_base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organizationuser_confirm_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organizationuser_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organizationuser_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organizationuser_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organizationuser_remind.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/fixtures/orgs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/register_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/register_success.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/email/reminder_body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/email/reminder_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/test_backends.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/test_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/test_forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/test_mixins.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/test_models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/test_utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/backends/tokens.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/fixtures/users.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/wall.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unitySN/unitySN/settings.py" afterPath="$PROJECT_DIR$/unitySN/unitySN/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unitySN/unitySN/urls.py" afterPath="$PROJECT_DIR$/unitySN/unitySN/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="unity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -157,8 +88,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unitySN/unitySN/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.4615386">
-              <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+            <state vertical-scroll-proportion="-10.384615">
+              <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
               <folding>
                 <element signature="e#380#409#0" expanded="true" />
               </folding>
@@ -166,75 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unitySN/userprofiles/models.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unitySN/organizations/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="2" selection-end-line="52" selection-end-column="20" />
-              <folding>
-                <element signature="e#123#151#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unitySN/setup/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.21472393">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unitySN/posts/views.py">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unitySN/organizations/tests/utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/unitySN/templates/posts/new.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20501138">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unitySN/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unitySN/roles/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unitySN/unitySN/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -268,12 +145,12 @@
         <option value="$PROJECT_DIR$/unitySN/posts/forms.py" />
         <option value="$PROJECT_DIR$/unitySN/unitySN/urls.py" />
         <option value="$PROJECT_DIR$/unitySN/posts/urls.py" />
-        <option value="$PROJECT_DIR$/unitySN/unitySN/settings.py" />
         <option value="$PROJECT_DIR$/unitySN/userprofiles/models.py" />
         <option value="$PROJECT_DIR$/unitySN/setup/views.py" />
         <option value="$PROJECT_DIR$/unitySN/posts/views.py" />
         <option value="$PROJECT_DIR$/unitySN/templates/base.html" />
         <option value="$PROJECT_DIR$/unitySN/templates/posts/new.html" />
+        <option value="$PROJECT_DIR$/unitySN/unitySN/settings.py" />
       </list>
     </option>
   </component>
@@ -350,7 +227,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CollaTo_1_8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../collato18/collato" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -359,8 +236,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/unitySN/posts" />
       <recent name="$PROJECT_DIR$/unitySN" />
+      <recent name="$PROJECT_DIR$/unitySN/posts" />
       <recent name="$PROJECT_DIR$/unitySN/static/js" />
       <recent name="$PROJECT_DIR$/unitySN/static" />
       <recent name="$PROJECT_DIR$/unitySN/templates" />
@@ -633,25 +510,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="875" extended-state="1" />
+    <frame x="0" y="0" width="1600" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33505154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@unity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32860824" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="manage.py@unity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32860824" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -954,50 +831,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unitySN/userprofiles/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="2" selection-end-line="52" selection-end-column="20" />
-          <folding>
-            <element signature="e#123#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unitySN/setup/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69343066">
           <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="e#616#657#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unitySN/setup/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unitySN/unitySN/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.4615386">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-          <folding>
-            <element signature="e#380#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unitySN/posts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1014,6 +853,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20501138">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unitySN/posts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61349696">
+          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unitySN/setup/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18404908">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unitySN/userprofiles/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4601227">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="2" selection-end-line="52" selection-end-column="20" />
+          <folding>
+            <element signature="e#123#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unitySN/organizations/tests/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unitySN/unitySN/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.384615">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding>
+            <element signature="e#380#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unitySN/organizations/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21472393">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

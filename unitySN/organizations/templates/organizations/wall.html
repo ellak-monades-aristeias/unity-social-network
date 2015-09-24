@@ -1,0 +1,36 @@
+
+ <h2> Τοίχος </h2>
+
+
+<!-- New Wall Post Creation Form -->
+{% if user.is_authenticated %}
+
+
+<form action="/activity/new_group_post" method="post">{% csrf_token %}
+    <input type="text" name="content" id = "content"/><br>
+    <input type="hidden" name="actor_name" id="actor_name" value={{ user.username }} /><br />
+    <input type="hidden" name="group_id" id="group_id" value={{ organization.id }} /><br />		
+     <input type="submit" value="Δημοσίευση" />
+</form>
+
+<br>
+
+{% endif %}
+
+<!-- All Wall Posts To User Profile -->
+<h3>Υπάρχουσες Δημοσιεύσεις </h3>
+
+{% for wall_post in wall_posts %}
+
+
+	<b>{{ wall_post.actor }}   </b> <br>
+	 {{wall_post.data.post_content}}  <br> 
+	 <i> {{wall_post.timesince}} πριν  </i> <br> <br>
+			
+
+{% empty %}
+<p>Δεν υπάρχουν δημοσιεύσεις.</p>
+		
+{% endfor %}
+
+

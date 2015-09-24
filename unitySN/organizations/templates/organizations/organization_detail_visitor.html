@@ -1,0 +1,31 @@
+{% extends "organizations_base.html" %}
+{% load url from future %}
+{% load org_tags %}
+{% block content %}
+<h1>{{ organization.name }}</h1>
+<h3>{{ organization.description }}</h3>
+
+<a href={{link}}> Join</a>
+<!-- All Wall Posts To User Profile -->
+<h3>Υπάρχουσες Δημοσιεύσεις </h3>
+
+{% for wall_post in wall_posts %}
+
+
+	<b>{{ wall_post.actor }}   </b> <br>
+	 {{wall_post.data.post_content}}  <br> 
+	 <i> {{wall_post.timesince}} πριν  </i> <br> <br>
+			
+
+{% empty %}
+<p>Δεν υπάρχουν δημοσιεύσεις.</p>
+		
+{% endfor %}
+
+
+
+
+
+
+{% endblock %}
+
