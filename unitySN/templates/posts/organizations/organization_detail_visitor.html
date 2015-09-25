@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% load url from future %}
+{% load org_tags %}
+{% block content %}
+<script type="text/javascript">
+$(document).ready(function(){
+    $(function () {
+	$("[rel='tooltip']").tooltip();
+    });
+});
+</script>
+<div class="row">
+<div class="col-xs-6 col-md-3" id="left-container">
+<h1>{{ organization.name }}<br/><small></small></h1>
+<br/><a href="{{organization.image}}" target="_blank"><img class="img-thumbnail" width="150" src="{{organization.image}}" alt="Group Picture"/></a>
+<br/><br/><b>Description:</b></br/><p style="text-align:justify;"><b></b>{{ organization.description }}</p>
+</div>
+<div class="col-xs-6 col-md-5"><br/><br/><br/>
+
+{% autoescape off %}
+
+
+<!-- All Wall Posts To User Profile -->
+<h3>Posts </h3>
+
+{% for wall_post in wall_posts %}
+
+
+	<table cellpadding="20" class="user-post"><tr>
+<td class="user-post-picture">
+	<center>
+	<h4>{% if user == action.actor %} 
+		<a href="/user/profile/{{ wall_post.actor }}">You 
+		{% else %}
+		<a href="/user/profile/{{ wall_post.actor }}">{{ wall_post.actor.profile.displayName }}
+		{% endif %}
+	</h4>
+	<img src="{{wall_post.actor.profile.thumbnailURL}}" width="70" alt="User Image"/></a><br/><br/>
+	<div id="timesince">πριν {{ wall_post.timestamp|timesince }} </div>
+	</center>
+</td>
+<td class="user-post-content">
+	{% if wall_post.data.post_content %}
+	{% autoescape off %}
+	{{ wall_post.data.post_content}}
+	{% endautoescape %}
+	{% endif %}
+	<br>
+</td>
+</tr></table>
+			
+
+{% empty %}
+<p>No actions yet.</p>
+		
+{% endfor %}
+
+{% endautoescape %}
+</div>
+<div class="col-xs-6 col-md-4"><br/><br/>
+<a class="btn btn-success btn-lg" href={{link}}><span class="glyphicon glyphicon-plus"> Participate</span></a><br/><br/>
+<div id="group-users-list"><b>Group members:</b><br/>
+{% for member in organization.users.all %}
+	<a rel="tooltip" data-toggle="tooltip" data-placement="bottom" title data-original-title="{{member.profile.displayName}}" class="img-rounded" href="/user/profile/{{member.username}}" target="_blank"><img class="img-rounded" width="40" src="{{member.profile.thumbnailURL}}"/></a>
+{% endfor %}
+</div>	
+</div>
+
+
+
+{% endblock %}
+

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+<div class="col-xs-6 col-md-3" id="left-container"><br/>
+<form action="." method="post">{% csrf_token %}
+<h1>Group edit </h1><br/><br/>
+Finished edit?  Press <b>Save</b>!<br/><br/><br/>
+<center><button class="btn btn-success btn-lg" type="submit">Save</button>&nbsp;<a class="btn btn-danger btn-lg" href="/groups">Back</a></center><br/><br/>
+</div>
+<div class="col-xs-6 col-md-5"><br/><br/>
+    {{ form.media }}
+    {% for field in form %}
+	<br/>
+	{% if field.label = "Εικόνα" %}
+		<b>Image:</b><br/><input id="thumbURL" name="image_field" type="text" class="form-control" value="{{organization.image}}"/>{{field}}
+	{% else %}
+	<b>{{ field.label }}:</b><br/>{{field}}	
+	{% endif %}
+    {% endfor %}
+    <br/><br/><br/> 
+    
+
+</div>
+<div class="col-xs-6 col-md-4">
+</div>
+</form>
+</div>
+{% endblock %}

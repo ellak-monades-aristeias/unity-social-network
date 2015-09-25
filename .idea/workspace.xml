@@ -2,65 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37f5269f-335f-4820-93ad-5ca910e4ba11" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0002_auto__add_field_organization_image.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0003_auto__chg_field_organization_image.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0004_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0005_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0006_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/0007_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/backends/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templatetags/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/email/activation_body.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/email/activation_subject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/app_settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/backends/defaults.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/backends/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/email/invitation_body.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/email/invitation_subject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/managers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/mixins.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templatetags/org_tags.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organization_confirm_delete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organization_detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organization_detail_visitor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organization_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organization_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organization_users.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations_base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organizationuser_confirm_delete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organizationuser_detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organizationuser_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organizationuser_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/organizationuser_remind.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/fixtures/orgs.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/register_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/register_success.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/email/reminder_body.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/email/reminder_subject.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/test_backends.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/test_base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/test_forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/test_mixins.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/test_models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/test_utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/backends/tokens.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/fixtures/users.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/tests/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/organizations/templates/organizations/wall.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unitySN/unitySN/settings.py" afterPath="$PROJECT_DIR$/unitySN/unitySN/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/locale/en/LC_MESSAGES/django.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp/south_migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp_nested/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp_nested/south_migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/south_migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/south_migrations/0002_auto__chg_field_action_timestamp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/south_migrations/0003_text_field_ids.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/south_migrations/0004_char_field_ids.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/south_migrations/0005_auto__add_field_follow_actor_only.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/south_migrations/0006_auto__add_field_action_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/south_migrations/0007_auto__add_field_follow_started.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/south_migrations/0008_add_action_follow_indexes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp/south_migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp_nested/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp_nested/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp_nested/models/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp_nested/south_migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/south_migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/templates/actstream/action.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/actions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/email/activation_body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/email/activation_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/templatetags/activity_tags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/templates/actstream/actor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp_nested/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/templates/actstream/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/tests/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/decorators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/templates/actstream/detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/locale/en/LC_MESSAGES/django.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/feeds.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/templates/actstream/followers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/templates/actstream/following.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/gfk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/email/invitation_body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/email/invitation_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/managers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp_nested/models/my_model.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/organization_confirm_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/organization_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/organization_detail_visitor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/organization_edit_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/organization_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/organization_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/organization_users.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/organizationuser_confirm_delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/organizationuser_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/organizationuser_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/organizationuser_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/organizationuser_remind.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/register_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/register_success.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/registry.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/email/reminder_body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/email/reminder_subject.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/signals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp/streams.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/tests/test_activity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/tests/test_feeds.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/tests/test_gfk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/tests/test_views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/tests/test_zombies.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp_nested/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/runtests/testapp/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/actstream/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unitySN/templates/posts/organizations/wall.html" />
     </list>
     <ignored path="unity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,11 +127,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unitySN/organizations/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21472393">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reminder_body.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unitySN/templates/posts/organizations/email/reminder_body.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unitySN/actstream/tests/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -222,6 +272,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unitySN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unitySN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -237,10 +327,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/unitySN" />
+      <recent name="$PROJECT_DIR$/unitySN/templates/posts" />
       <recent name="$PROJECT_DIR$/unitySN/posts" />
       <recent name="$PROJECT_DIR$/unitySN/static/js" />
       <recent name="$PROJECT_DIR$/unitySN/static" />
-      <recent name="$PROJECT_DIR$/unitySN/templates" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.runserver">
@@ -511,7 +601,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="875" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
@@ -905,8 +995,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/unitySN/organizations/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21472393">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unitySN/templates/posts/organizations/email/reminder_body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unitySN/actstream/tests/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

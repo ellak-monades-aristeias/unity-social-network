@@ -1,0 +1,90 @@
+<!-- New Wall Post Creation Form -->
+{% if user.is_authenticated %}
+{% load i18n %}
+{% get_current_language as el %}   
+<script type="text/javascript">
+function set_post_user_menu() {
+	document.getElementById("post-menu").style["height"] = "200px";
+	document.getElementById("post-menu").style["overflow"] = "auto";
+	document.getElementById('post-menu').innerHTML= "{% for member in organization.users.all %}<li><a href='#' onclick='insertAtCursor(\"{{member.username}}\")'><div class='media'><span class='pull-left'><img src='{{ member.profile.thumbnailURL }}' width='20'\/\></span><div class='media-body'>{{member.profile.displayName}}</div></div></a></li>{% endfor %}";
+}
+
+function insertAtCursor(myValue) {
+    myField = document.getElementById('content');
+    //IE support
+    if (document.selection) {
+        myField.focus();
+        sel = document.selection.createRange();
+        sel.text = '@'+myValue;
+    }
+    //MOZILLA and others
+    else if (myField.selectionStart || myField.selectionStart == '0') {
+        var startPos = myField.selectionStart;
+        var endPos = myField.selectionEnd;
+        myField.value = myField.value.substring(0, startPos)
+            + '@'+myValue
+            + myField.value.substring(endPos, myField.value.length);
+    } else {
+        myField.value += '@'+myValue;
+    }
+}
+</script>{{image_form.media}}
+
+<form id="testFormCicu" action="/activity/new_group_post" method="post">{% csrf_token %}
+   
+<textarea name="content" id = "content" class="form-control" placeholder="Fill this field..."></textarea><br/>
+<div class="input-group-btn"><input class="btn btn-primary" id="submit" type="submit" value="Post" />
+<ul class="dropdown-menu" role="menu" id="post-menu"></ul><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" onclick="set_post_user_menu()"><span class="glyphicon glyphicon-user"></span></button>&nbsp;{{ image_form }}</div>
+     <input type="hidden" name="target" id="target" value="Public"/>
+	    <input type="hidden" name="actor_name" id="actor_name" value={{ user.username }} />
+    <input type="hidden" name="group_id" id="group_id" value={{ organization.id }} />
+</form>
+
+<!--<form action="/activity/new_group_post" method="post">{% csrf_token %}
+    <input type="text" name="content" id = "content"/><br>
+    <input type="hidden" name="actor_name" id="actor_name" value={{ user.username }} /><br />
+    <input type="hidden" name="group_id" id="group_id" value={{ organization.id }} /><br />		
+     <input type="submit" value="Δημοσίευση" />
+</form>-->
+
+<br>
+
+{% endif %}
+
+<!-- All Wall Posts To User Profile -->
+<h3>Posts </h3>
+
+{% for wall_post in wall_posts %}
+
+
+<blockquote>
+<p style="text-align:justify">
+{% if wall_post.data.post_content %}
+	{% autoescape off %}
+	{{wall_post.data.post_content}}
+	{% endautoescape %}
+{% endif %}
+</p>
+<small>
+{% if user == wall_post.actor %} 
+<a href="/user/profile/{{ wall_post.actor }}"><img src="{{wall_post.actor.profile.thumbnailURL}}" width="20" alt="User Image"/>&nbsp;&nbsp;Εσείς</a>
+{% else %}
+<a href="/user/profile/{{ wall_post.actor }}"><img src="{{wall_post.actor.profile.thumbnailURL}}" width="20" alt="User Image"/>&nbsp;&nbsp;{{ wall_post.actor.profile.displayName }}</a>
+{% endif %}
+{% for group in related_groups %}
+			{% if group.name ==  wall_post.target.name %}</a> στην ομάδα <a href="/groups/{{group.id}}"> <img src="{{ wall_post.target.image }}" width="20"/>
+				{{ wall_post.target.name }}</a>
+			{% endif %}
+		{% endfor %}
+, {% trans "πριν" %} {{ wall_post.timestamp|timesince }}</small>
+</blockquote>
+
+<hr/>
+			
+
+{% empty %}
+<p>No actions yet.</p>
+		
+{% endfor %}
+
+

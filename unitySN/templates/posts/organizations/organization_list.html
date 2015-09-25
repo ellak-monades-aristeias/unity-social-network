@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row">
+<div class="col-xs-6 col-md-3">
+
+<div id="left-container">
+<h1>Groups</h1><br/>
+<center><img src="/static/main/img/group.png"/><br/><br/><br/></center>
+<p style="text-align:justify;">You can participate in a group or create a new one.<br/>
+<!-- Στις καρτέλες δεξιά, μπορείτε να δείτε τις Ομάδες στις οποίες είστε μέλος (<b>"Οι ομάδες σας"</b>), όλες τις ομάδες του κοινωνικού δικτύου MedWeight (<b>"Όλες οι ομάδες"</b>) και τέλος, τις υπόλοιπες ομάδες του κοινωνικού δικτύου στις οποίες δεν είστε μέλος (<b>"Άλλες ομάδες"</b>).<br/>Eναλλακτικά, μπορείτε να δημιουργήσετε τη δική σας ομάδα πατώντας το παρακάτω κουμπί: -->
+</p><center><br/><a class="btn btn-success btn-lg" href="/groups/add/">Create group</a></center></div>
+
+</div>
+<div class="col-xs-6 col-md-6">
+<br/><br/>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          <span class="glyphicon glyphicon-th-large"></span> Your groups
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        {% if user_organizations %}
+		{% for organization in user_organizations %}
+			<div class="media">
+			  <a class="pull-left" href="{{ organization.get_absolute_url }}">
+			    <img class="media-object" width="30" src="{{organization.image}}" />
+			  </a>
+			  <div class="media-body">
+			    <a href="{{ organization.get_absolute_url }}">{{ organization.name }}</a>
+			  </div>
+			</div>
+		{% endfor %}
+	{% else %}
+		You are not participate in any group!
+	{% endif %}
+      </div>
+     </div>
+  </div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          <span class="glyphicon glyphicon-th"></span> Other groups
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        {% for organization in other_organizations %}
+		<div class="media">
+			  <a class="pull-left" href="{{ organization.get_absolute_url }}">
+			    <img class="media-object" width="30" src="{{organization.image}}" alt="...">
+			  </a>
+			  <div class="media-body">
+			    <a href="{{ organization.get_absolute_url }}">{{ organization.name }}</a>
+			  </div>
+			</div>
+		{% endfor %}
+      </div>
+     </div>
+  </div>
+</div>
+</div>
+<div class="col-xs-6 col-md-3">
+</div>
+</div>
+
+
+{% endblock %}
